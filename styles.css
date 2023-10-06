@@ -1,0 +1,105 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    --text: #ffff;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body-bg-color);
+    font-family: 'Poppins';
+
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure {
+    margin-top: 201px;
+}
+
+.image {
+    border-color: white;
+    box-shadow: var(--purple) 0px 5px 15px;    width: 213px;
+    height: 213px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+p {
+    color: var(--purple);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.image-footer {
+    mix-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+    align-content: center;
+}
+
+footer {
+    margin-top: 68px;
+    display: flex;
+    gap: 29px;
+}
+
+.container {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.buttons {
+    width: 326px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.buttons:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.buttons:focus {
+  outline: none;
+}
+
+.buttons {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+
+
