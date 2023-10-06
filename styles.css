@@ -2,6 +2,11 @@
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
     --text: #ffff;
+    --button-color-1: #667eea;
+    --button-color-2: #764ba2;
+    --button-color-3: #6b8dd6;
+    --button-color-4: #8e37d7;
+    --shadow-box-button: #744fa8;
   }
 
 * {
@@ -13,7 +18,6 @@
 body {
     background: var(--body-bg-color);
     font-family: 'Poppins';
-
 }
 
 main {
@@ -93,12 +97,12 @@ footer {
 .buttons {
   background-image: linear-gradient(
     to right,
-    #667eea,
-    #764ba2,
-    #6b8dd6,
-    #8e37d7
+    var(--button-color-1),
+    var(--button-color-2),
+    var(--button-color-3),
+    var(--button-color-4)
   );
-  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  box-shadow: var(--shadow-box-button);
 }
 
 
